@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+:root{
+--primary-color: linear-gradient(to top left, #12021a,  #06061a);   /* Vibrant violet (matches the purple hues) */
+--secondary-color: linear-gradient(to bottom, rgb(9, 1, 14),rgb(4, 1, 14)); 
+--background-color: linear-gradient(to bottom left, #12021a, #18041f,  #23082c,  #30113f,  #1b0a34,  #0b0522,  #06061a);
+  --text-color: #ffffff; 
+  --font-family: 'Arial', sans-serif;
+}
+
+@theme {
+  --primary-color: var(--primary-color);
+  --secondary-color: var(--secondary-color);
+  --background-color: var(--background-color);
+  --text-color: var(--text-color);
+  --font-family: var(--font-family);
+}
+
+body {
+  font-family: var(--font-family);
+  background: var(--background-color);
+  backdrop-filter: blur(50%);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+}
