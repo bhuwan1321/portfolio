@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import img from './IMG_1646[1].jpg';
+import img from './BhanuBG.jpg';
 const Test = () => {
   const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.075]);

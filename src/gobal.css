@@ -5,7 +5,7 @@
 :root{
 --primary-color: linear-gradient(to top left, #12021a,  #06061a);  
 --secondary-color: linear-gradient(to bottom, rgb(9, 1, 14),rgb(4, 1, 14)); 
---background-color: linear-gradient(to bottom left, #12021a, #18041f,  #23082c,  #30113f,  #1b0a34,  #0b0522,  #06061a);
+--background-color: linear-gradient(to bottom left, #12021a, #18041f,  #23082c,  #30113f,  #1b0a34,  #0b0522,  #06061a); 
 --text-color: #ffffff; 
 --font-family: 'Inter', sans-serif;
 --font-family-secondary: 'ubuntu', sans-serif;
